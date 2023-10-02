@@ -52,6 +52,7 @@
   .btn-outline-#{$color} {
     background: $white;
     border-color: $light-300;
+    border-radius: 5px;
 
     &:not(:disabled):not(.disabled) {
       &:hover, &:active, &.hover, &.active {
